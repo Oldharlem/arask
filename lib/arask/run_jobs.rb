@@ -1,6 +1,7 @@
 module Arask
   class RunJobs < ActiveJob::Base
     queue_as :default
+    unique :until_executed
 
     def perform
       begin
