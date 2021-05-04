@@ -1,4 +1,3 @@
-require "arask/railtie"
 require "arask/arask_job"
 require "arask/run_jobs"
 require "arask/setup"
